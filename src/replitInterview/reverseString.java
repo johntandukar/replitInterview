@@ -3,7 +3,7 @@ package replitInterview;
 public class reverseString {
 
 	public static void main(String[] args) {
-		String str = "MyJava";
+		String str = "JohnWick";
 		char[] reverseResult = str.toCharArray();
 		for( int i = reverseResult.length-1; i>=0; i--)
 			System.out.print(reverseResult[i]);
